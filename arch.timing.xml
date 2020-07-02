@@ -2736,19 +2736,19 @@
       <switchblock_locations pattern="all"/>
     </tile>
     <tile name="SYN-IOPAD">
-      <sub_tile capacity="50" name="SYN_IN_SUB_TILE">
+      <sub_tile capacity="1" name="SYN_IN_SUB_TILE">
         <equivalent_sites>
           <site pb_type="SYN-INPAD">
-            <direct from="SYN-INPAD.inpad" to="SYN-INPAD.inpad"/>
+            <direct from="SYN_IN_SUB_TILE.inpad" to="SYN-INPAD.inpad"/>
           </site>
         </equivalent_sites>
         <fc in_type="abs" in_val="2" out_type="abs" out_val="2"/>
         <output name="inpad" num_pins="1"/>
       </sub_tile>
-      <sub_tile capacity="50" name="SYN_OUT_SUB_TILE">
+      <sub_tile capacity="1" name="SYN_OUT_SUB_TILE">
         <equivalent_sites>
           <site pb_type="SYN-OUTPAD">
-            <direct from="SYN-OUTPAD.outpad" to="SYN-OUTPAD.outpad"/>
+            <direct from="SYN_OUT_SUB_TILE.outpad" to="SYN-OUTPAD.outpad"/>
           </site>
         </equivalent_sites>
         <fc in_type="abs" in_val="2" out_type="abs" out_val="2"/>
