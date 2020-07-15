@@ -1,0 +1,227 @@
+# of pack patterns 64
+pack pattern index 0 block count 7 name LUT5toLUT7 root F6MUX
+pack pattern index 1 block count 15 name LUT5toLUT8 root F6MUX
+pack pattern index 2 block count 1 name LUT5x2 root lut
+pack pattern index 3 block count 3 name LUT5toLUT6 root lut
+pack pattern index 4 block count 1 name BLK-TL-SLICEL.SLICEL0.CARRYCHAIN root CARRY4_VPR
+pack pattern index 5 block count 2 name CE_FF_FDRE root CE_VCC
+pack pattern index 6 block count 3 name CESR_FF_FDRE root CE_VCC
+pack pattern index 7 block count 2 name CE_FF_FDSE root CE_VCC
+pack pattern index 8 block count 3 name CESR_FF_FDSE root CE_VCC
+pack pattern index 9 block count 2 name CE_FF_FDPE root CE_VCC
+pack pattern index 10 block count 3 name CESR_FF_FDPE root CE_VCC
+pack pattern index 11 block count 2 name CE_FF_FDCE root CE_VCC
+pack pattern index 12 block count 3 name CESR_FF_FDCE root CE_VCC
+pack pattern index 13 block count 2 name SR_FF_FDSE root SR_GND
+pack pattern index 14 block count 2 name SR_FF_FDRE root SR_GND
+pack pattern index 15 block count 2 name SR_FF_FDPE root SR_GND
+pack pattern index 16 block count 2 name SR_FF_FDCE root SR_GND
+pack pattern index 17 block count 1 name BLK-TL-SLICEM.SLICEM.CARRYCHAIN root CARRY4_VPR
+pack pattern index 18 block count 2 name SRL32_x2 root SRLC32E_VPR
+pack pattern index 19 block count 3 name SRL32_x3 root SRLC32E_VPR
+pack pattern index 20 block count 4 name SRL32_x4 root SRLC32E_VPR
+pack pattern index 21 block count 3 name DRAM_DP_32_HI root DPRAM32_O5
+pack pattern index 22 block count 9 name DRAM_8O_32 root DPRAM32_O5
+pack pattern index 23 block count 3 name DRAM_DP root DPRAM64
+pack pattern index 24 block count 5 name DRAM_QP root DPRAM64
+pack pattern index 25 block count 7 name DRAM256 root DPRAM64
+pack pattern index 26 block count 5 name DRAM_QP_32 root SPRAM32_O6
+pack pattern index 27 block count 1 name DRAM_DP_32_LO root DPRAM32_O6
+pack pattern index 28 block count 3 name DRAM128 root DPRAM64_for_RAM128X1D
+pack pattern index 29 block count 7 name DRAM128_DP root DPRAM64_for_RAM128X1D
+pack pattern index 30 block count 3 name ISERDES_IDELAY_NO_IBUF_BLK-TL-IOPAD root IDELAYE2
+pack pattern index 31 block count 6 name ISERDES_IDELAY_IOBUF_BLK-TL-IOPAD root IDELAYE2
+pack pattern index 32 block count 2 name ISERDES_NO_IBUF_BLK-TL-IOPAD root inpad
+pack pattern index 33 block count 5 name IOSERDES_BLK-TL-IOPAD root IOBUF_VPR
+pack pattern index 34 block count 2 name OSERDES_NO_OBUF_BLK-TL-IOPAD root OSERDESE2
+pack pattern index 35 block count 3 name OSERDES_OBUF_BLK-TL-IOPAD root OSERDESE2
+pack pattern index 36 block count 4 name OSERDES_IOBUF_BLK-TL-IOPAD root OSERDESE2
+pack pattern index 37 block count 2 name inpad_to_IBUF root inpad
+pack pattern index 38 block count 2 name OBUF_to_outpad root OBUF_VPR
+pack pattern index 39 block count 3 name IOBUF_VPR_to_PAD root inpad
+pack pattern index 40 block count 3 name ISERDES_IDELAY_NO_IBUF_BLK-TL-IOPAD_M root IDELAYE2
+pack pattern index 41 block count 6 name ISERDES_IDELAY_IOBUF_BLK-TL-IOPAD_M root IDELAYE2
+pack pattern index 42 block count 5 name ISERDES_IDELAY_IOBUFDS_M_BLK-TL-IOPAD_M root IDELAYE2
+pack pattern index 43 block count 2 name ISERDES_NO_IBUF_BLK-TL-IOPAD_M root inpad
+pack pattern index 44 block count 5 name IOSERDES_BLK-TL-IOPAD_M root IOBUF_VPR
+pack pattern index 45 block count 4 name ISERDES_IOBUFDS_M_BLK-TL-IOPAD_M root IOBUFDS_M_VPR
+pack pattern index 46 block count 2 name OSERDES_NO_OBUF_BLK-TL-IOPAD_M root OSERDESE2
+pack pattern index 47 block count 3 name OSERDES_OBUF_BLK-TL-IOPAD_M root OSERDESE2
+pack pattern index 48 block count 4 name OSERDES_IOBUF_BLK-TL-IOPAD_M root OSERDESE2
+pack pattern index 49 block count 3 name OSERDES_OBUFTDS_M_BLK-TL-IOPAD_M root OSERDESE2
+pack pattern index 50 block count 4 name OSERDES_IOBUFDS_M_BLK-TL-IOPAD_M root OSERDESE2
+pack pattern index 51 block count 2 name OBUFTDS_M_to_outpad root OBUFTDS_M_VPR
+pack pattern index 52 block count 3 name IOBUFDS_M_VPR_to_PAD root inpad
+pack pattern index 53 block count 3 name ISERDES_IDELAY_NO_IBUF_BLK-TL-IOPAD_S root IDELAYE2
+pack pattern index 54 block count 6 name ISERDES_IDELAY_IOBUF_BLK-TL-IOPAD_S root IDELAYE2
+pack pattern index 55 block count 2 name ISERDES_NO_IBUF_BLK-TL-IOPAD_S root inpad
+pack pattern index 56 block count 5 name IOSERDES_BLK-TL-IOPAD_S root IOBUF_VPR
+pack pattern index 57 block count 2 name OSERDES_NO_OBUF_BLK-TL-IOPAD_S root OSERDESE2
+pack pattern index 58 block count 3 name OSERDES_OBUF_BLK-TL-IOPAD_S root OSERDESE2
+pack pattern index 59 block count 4 name OSERDES_IOBUF_BLK-TL-IOPAD_S root OSERDESE2
+pack pattern index 60 block count 2 name OBUFTDS_S_to_outpad root OBUFTDS_S_VPR
+pack pattern index 61 block count 3 name IOBUFDS_S_VPR_to_PAD root inpad
+pack pattern index 62 block count 2 name inpadtoIBUF root inpad
+pack pattern index 63 block count 2 name OBUFtooutpad root SYN-OBUF
+
+molecule type: atom
+	pattern index 64: atom block clk_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$8[7].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$8[7].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$7[6].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$7[6].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$6[5].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$6[5].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$5[4].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$5[4].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$4[3].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$4[3].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$3[2].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$3[2].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$2[1].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$2[1].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$1[0].\sw_obuf
+
+molecule type: atom
+	pattern index 64: atom block $genblock$/scratch/safe/butta/symbiflow-arch-defs.overlay/build/xc/xc7/tests/buttons/buttons_arty_overlay.v:15$1[0].\led_ibuf
+
+molecule type: atom
+	pattern index 64: atom block $false
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$96 root node
+	pattern index 1: atom block out:led[7]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$95 root node
+	pattern index 1: atom block out:led[6]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$94 root node
+	pattern index 1: atom block out:led[5]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$93 root node
+	pattern index 1: atom block out:led[4]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$92 root node
+	pattern index 1: atom block out:led[3]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$91 root node
+	pattern index 1: atom block out:led[2]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$90 root node
+	pattern index 1: atom block out:led[1]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$89 root node
+	pattern index 1: atom block out:led[0]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$88 root node
+	pattern index 1: atom block out:clk_pr1
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$120 root node
+	pattern index 1: atom block out:sw_pr1[7]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$119 root node
+	pattern index 1: atom block out:sw_pr1[6]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$118 root node
+	pattern index 1: atom block out:sw_pr1[5]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$117 root node
+	pattern index 1: atom block out:sw_pr1[4]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$116 root node
+	pattern index 1: atom block out:sw_pr1[3]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$115 root node
+	pattern index 1: atom block out:sw_pr1[2]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$114 root node
+	pattern index 1: atom block out:sw_pr1[1]
+
+molecule type: OBUF_to_outpad
+	pattern index 0: atom block $auto$iopadmap.cc:321:execute$113 root node
+	pattern index 1: atom block out:sw_pr1[0]
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block sw[0] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$105
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[7] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$104
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[6] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$103
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[5] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$102
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[4] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$101
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[3] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$100
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[2] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$99
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[1] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$98
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block led_pr1[0] root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$97
+
+molecule type: inpad_to_IBUF
+	pattern index 0: atom block clk root node
+	pattern index 1: atom block $auto$iopadmap.cc:321:execute$87
