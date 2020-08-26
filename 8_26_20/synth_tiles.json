@@ -1,0 +1,297 @@
+{
+  "tiles": {
+    "INT_R_X3Y100": {
+      "pins": [
+        {
+          "roi_name": "out_0_",
+          "wire": "SE6D0",
+          "pad": "SYN5",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        13,
+        53
+      ],
+      "tile_name": "SYN-IOPAD-0"
+    },
+    "INT_R_X5Y100": {
+      "pins": [
+        {
+          "roi_name": "out_1_",
+          "wire": "SE6A0",
+          "pad": "SYN6",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        17,
+        53
+      ],
+      "tile_name": "SYN-IOPAD-1"
+    },
+    "INT_L_X2Y100": {
+      "pins": [
+        {
+          "roi_name": "out_2_",
+          "wire": "SS6D2",
+          "pad": "SYN7",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        },
+        {
+          "roi_name": "out_3_",
+          "wire": "SS6D0",
+          "pad": "SYN8",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 1
+        }
+      ],
+      "loc": [
+        12,
+        53
+      ],
+      "tile_name": "SYN-IOPAD-2"
+    },
+    "CLBLL_L_X2Y124": {
+      "pins": [
+        {
+          "roi_name": "in_0_",
+          "wire": "CLBLL_EE2A0",
+          "pad": "SYN1",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        11,
+        28
+      ],
+      "tile_name": "SYN-IOPAD-3"
+    },
+    "CLBLL_L_X2Y121": {
+      "pins": [
+        {
+          "roi_name": "in_1_",
+          "wire": "CLBLL_SE4C0",
+          "pad": "SYN2",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        11,
+        31
+      ],
+      "tile_name": "SYN-IOPAD-4"
+    },
+    "CLBLL_L_X2Y116": {
+      "pins": [
+        {
+          "roi_name": "in_2_",
+          "wire": "CLBLL_SE2A1",
+          "pad": "SYN3",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 0
+        },
+        {
+          "roi_name": "in_3_",
+          "wire": "CLBLL_EE2A0",
+          "pad": "SYN4",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 1
+        }
+      ],
+      "loc": [
+        11,
+        36
+      ],
+      "tile_name": "SYN-IOPAD-5"
+    },
+    "INT_L_X22Y119": {
+      "pins": [
+        {
+          "roi_name": "rst",
+          "wire": "EE4A2",
+          "pad": "SYN9",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        58,
+        33
+      ],
+      "tile_name": "SYN-IOPAD-6"
+    },
+    "HCLK_L_X57Y130": {
+      "pins": [
+        {
+          "roi_name": "clk",
+          "wire": "HCLK_CK_BUFHCLK0",
+          "pad": "SYN0",
+          "port_type": "input",
+          "is_clock": true,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        58,
+        27
+      ],
+      "tile_name": "SYN-IOPAD-7"
+    },
+    "INT_L_X20Y49": {
+      "pins": [
+        {
+          "roi_name": "out_0_",
+          "wire": "ER1BEG_S0",
+          "pad": "SYN15",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        },
+        {
+          "roi_name": "out_1_",
+          "wire": "SW2A0",
+          "pad": "SYN16",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 1
+        },
+        {
+          "roi_name": "in_0_",
+          "wire": "SS2END0",
+          "pad": "SYN11",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 2
+        },
+        {
+          "roi_name": "in_1_",
+          "wire": "SW2A0",
+          "pad": "SYN12",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 3
+        }
+      ],
+      "loc": [
+        54,
+        108
+      ],
+      "tile_name": "SYN-IOPAD-8"
+    },
+    "CLBLL_L_X2Y49": {
+      "pins": [
+        {
+          "roi_name": "out_2_",
+          "wire": "CLBLL_SW2A2",
+          "pad": "SYN17",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        },
+        {
+          "roi_name": "in_2_",
+          "wire": "CLBLL_SW2A2",
+          "pad": "SYN13",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 1
+        }
+      ],
+      "loc": [
+        11,
+        108
+      ],
+      "tile_name": "SYN-IOPAD-9"
+    },
+    "INT_L_X2Y49": {
+      "pins": [
+        {
+          "roi_name": "out_3_",
+          "wire": "SS2A0",
+          "pad": "SYN18",
+          "port_type": "output",
+          "is_clock": false,
+          "z_loc": 0
+        },
+        {
+          "roi_name": "in_3_",
+          "wire": "SS2A0",
+          "pad": "SYN14",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 1
+        }
+      ],
+      "loc": [
+        12,
+        108
+      ],
+      "tile_name": "SYN-IOPAD-10"
+    },
+    "INT_L_X22Y46": {
+      "pins": [
+        {
+          "roi_name": "rst",
+          "wire": "WW4A3",
+          "pad": "SYN19",
+          "port_type": "input",
+          "is_clock": false,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        58,
+        111
+      ],
+      "tile_name": "SYN-IOPAD-11"
+    },
+    "HCLK_CLB_X56Y26": {
+      "pins": [
+        {
+          "roi_name": "clk",
+          "wire": "HCLK_CLB_CK_BUFHCLK8",
+          "pad": "SYN10",
+          "port_type": "input",
+          "is_clock": true,
+          "z_loc": 0
+        }
+      ],
+      "loc": [
+        57,
+        133
+      ],
+      "tile_name": "SYN-IOPAD-12"
+    }
+  },
+  "info": [
+    {
+      "name": "pr1",
+      "GRID_X_MAX": 57,
+      "GRID_X_MIN": 10,
+      "GRID_Y_MAX": 51,
+      "GRID_Y_MIN": 0
+    },
+    {
+      "name": "pr2",
+      "GRID_X_MAX": 57,
+      "GRID_X_MIN": 10,
+      "GRID_Y_MAX": 156,
+      "GRID_Y_MIN": 105
+    }
+  ]
+}
